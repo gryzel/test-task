@@ -1,0 +1,32 @@
+.gryzel-nav {
+    background-color: #FDFDFD;
+    border-color: #dcdcdc;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.clear {
+	clear:both;
+}
+
+.user {
+	padding:5px
+}
+.user .name a{
+	margin: 12px 7px;
+    display: block;
+}
+.user .sendMsg a{
+	margin: 12px 7px;
+    display: block;
+}
+
+#rowAndSeat .active{
+	cursor: not-allowed;
+}
+#rowAndSeat .warning,#rowAndSeat .success,#rowAndSeat .danger{
+	cursor:pointer;
+}

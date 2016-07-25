@@ -1,0 +1,52 @@
+.post-preview{
+	display: block;
+	font-family: Lora,'Times New Roman',serif;
+	font-size: 20px;
+	color: #404040;
+	max-width: 800px;
+}
+
+.newsblock{
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+
+.post-preview::selection {
+    color: #fff;
+    text-shadow: none;
+    background: #0085a1;
+}
+.post-preview>a {
+    color: #404040;
+}
+
+.post-preview>a>.post-title {
+    font-size: 36px;
+}
+.post-preview>a>.post-title {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 800;
+}
+   a:hover {
+    color: #0085a1; /* Цвет ссылки при наведении на нее курсора мыши */  
+    
+   }
+
+.addNewsBlock{
+    position: fixed;
+    top: 60px;
+    left: 55%;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 1px;
+    display: none;
+}
